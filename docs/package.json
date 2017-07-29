@@ -11,10 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-mews": "^1.0.11",
+    "mews-ui": "^2.4.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "@storybook/react": "^3.1.9"
+    "@storybook/react": "^3.1.9",
+    "URIjs": "^1.16.1"
   }
 }
