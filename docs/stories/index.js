@@ -7,5 +7,5 @@ import { linkTo } from '@storybook/addon-links';
 import { Button } from 'mews-ui';
 
 storiesOf('Button', module)
-  .add('with text', () => <Button onClick={action('clicked')}>Hello Button</Button>)
-  .add('with some emoji', () => <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>);
+  .addWithInfo('with text', '', () => <Button onClick={action('clicked')}>Hello Button</Button>)
+  .addWithInfo('with some emoji', '', () => <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>);
