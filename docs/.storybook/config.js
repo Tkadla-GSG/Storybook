@@ -8,8 +8,10 @@ setDefaults({
 });
 setAddon(infoAddon);
 
+const req = require.context('../stories', true, /.js$/)
+
 function loadStories() {
-  require('../stories');
+  req.keys().forEach(req)
 }
 
 configure(loadStories, module);
