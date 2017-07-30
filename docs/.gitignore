@@ -1,0 +1,7 @@
+!yarn-offline-mirror/*.tgz
+node_modules
+dist/
+lib/
+.yarn-cache/
+*.log
+.idea
